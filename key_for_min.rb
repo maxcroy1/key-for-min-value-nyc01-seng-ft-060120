@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   low_num = 0
-  low_key = ""
+  low_key = Symbol
   name_hash.first do |key, value|
     low_num = value
     low_key = key
